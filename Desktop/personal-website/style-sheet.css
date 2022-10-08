@@ -1,15 +1,14 @@
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    text-align: center;
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 body {
     background-color: lightblue;
     line-height: 1.6;
     font-size: 18px;
+    font-family: 'Tinos';
 }
 
 h1 {
@@ -40,12 +39,23 @@ h3 {
 
 .txt-in-box {
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
+    margin-left: 2em;
 }
 
 .img-in-box {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
